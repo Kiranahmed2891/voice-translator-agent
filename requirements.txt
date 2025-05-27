@@ -1,0 +1,9 @@
+streamlit
+gtts
+SpeechRecognition
+pyaudio
+sounddevice
+scipy
+python-dotenv
+openai
+openai-agents
