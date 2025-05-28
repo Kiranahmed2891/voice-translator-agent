@@ -1,3 +1,23 @@
+
+#step 1 create folder (folder name)
+#Step 2: Create Virtual Environment   #command: python -m venv .venv 
+ #activate it window command : .venv\Scripts\activate
+#step 3  Install Required Packages
+# commands :  pip install streamlit gTTS SpeechRecognition sounddevice scipy python-dotenv
+# Step 4: Setup .env File 
+#  GEMINI_API_KEY=your_gemini_api_key_here
+#Step 6: Add Your Code
+ # Paste your full code into a file named main.py.
+#Step 7: Run the App
+#From the terminal (make sure .venv is activated):
+# command:  streamlit run main.py
+
+
+
+
+
+
+
 import streamlit as st
 import speech_recognition as sr
 import sounddevice as sd
